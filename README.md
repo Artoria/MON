@@ -5,7 +5,7 @@ MON is now on an alpha stage.
 
 MON(Meta Object Notation) for Ruby. 'Meta' denotes the state careless about a certain language.
 
-MON *partially* supports Marshal.dump format now. And generates results that can be a boilerplate code to many languages like JavaScript. (with specific functions defined. See examples)
+MON *partially* supports Marshal.dump format now. And generates results that can be a boilerplate code to many languages like JavaScript, i.e. it generates **runnable code** rather than **data** .(with specific functions pre-defined, which mainly beings with *put_*. See examples)
 
 I'm not aimed to or not to support Rails. 
 
