@@ -1,7 +1,7 @@
 MON
 ===
 
-MON is now on an alpha stage.
+MON is now on very alpha stage. No errors will be throwed but ignored instead. No 'Struct' and 'dump' and 'marshal_dump' support at present.
 
 MON(Meta Object Notation) for Ruby. 'Meta' denotes the state careless about a certain language.
 
