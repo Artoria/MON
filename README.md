@@ -89,8 +89,8 @@ String with encodings:
 encoding notes
 * E=true for UTF-8
 * E=false for US-ASCII
-*otherwise, 
-**encoding="GBK" for GBK, etc.
+* otherwise, 
+* encoding="GBK" for GBK, etc.
 
 ```ruby
 irb(main):009:0* print MDump.new.mdump("abc")
