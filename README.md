@@ -57,6 +57,7 @@ put_hash_end();
 ```
 
 Simple Objects
+--------------
 
 ```ruby
 irb(main):004:0> a = Object.new
@@ -83,14 +84,13 @@ put_object_end();
 
 
 String with encodings:
+----------------------
 
-E=true for UTF-8
-
-E=false for US-ASCII
-
-otherwise, 
-
-  encoding="GBK" for GBK, etc.
+encoding notes
+* E=true for UTF-8
+* E=false for US-ASCII
+*otherwise, 
+**encoding="GBK" for GBK, etc.
 
 ```ruby
 irb(main):009:0* print MDump.new.mdump("abc")
