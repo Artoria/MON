@@ -87,7 +87,7 @@ String with encodings:
 ----------------------
 
 encoding notes
-* E=true for UTF-8
+* E=true for UTF-8 (the case followd)
 * E=false for US-ASCII
 * otherwise, 
 * encoding="GBK" for GBK, etc.
